@@ -1,0 +1,164 @@
+.conn-info {
+  background: linear-gradient(315deg, rgba(126, 232, 250, 0.7), rgba(128, 255, 114, 0.7)), url(../buttonspage/media/buttons-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  line-height: 1.8;
+  padding: 115px 0;
+}
+
+.conn-info .content {
+  width: 660px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.conn-info .inner {
+  background: #fff;
+  border-radius: 10px;
+  padding: 50px 85px;
+}
+
+.conn-info form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conn-info .title {
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #222;
+  font-family: montserrat;
+  /* font-size: 24px; */
+  text-transform: uppercase;
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+.conn-info .subtitle {
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  /* font-weight: 700; */
+  /* color: #222; */
+  font-family: montserrat;
+  /* font-size: 24px; */
+  /* text-transform: uppercase; */
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+.conn-info .button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.conn-info .button-container .button {
+  padding: 20px 20px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(315deg, rgba(126, 232, 250, 0.8), rgba(128, 255, 114, 0.8));
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  /* padding: 15px; */
+}
+
+.conn-info .button-container .button:hover {
+  background-color: #0056b3;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.input-container input {
+  height: 1.5em;
+  width: 15em;
+  border-radius: 15px;
+  border-width: 15px;
+  border: white;
+  box-shadow: 0 0 6px rgb(166, 159, 255);
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+input:focus {
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(125, 115, 255);
+  outline: 0 none;
+}
+
+a {
+  color: rgb(0, 68, 255);
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+  align-self: baseline;
+  margin-left: 40px;
+}
+
+.loginBut {
+  height: 4em;
+  width: 24em;
+  margin: 10px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background: linear-gradient(rgb(124, 114, 255), rgb(255, 116, 116));
+  border: none;
+  transition: all .2s ease-in-out;
+}
+
+.loginBut:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+}
+
+.loginBut p {
+  color: white;
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+.siG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  height: 4em;
+  width: 24em;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(152, 145, 255);
+  border-width: 3px;
+  border-style: dashed;
+  transition: all .2s ease-in-out;
+}
+
+.siG:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+  cursor: pointer;
+}
+
+.siG p {
+  font-size: 20px;
+}

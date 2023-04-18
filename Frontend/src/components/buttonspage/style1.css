@@ -1,0 +1,139 @@
+.buttonspage {
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.7), rgba(128, 255, 114, 0.7)), url(./media/buttons-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    line-height: 1.8;
+    padding: 115px 0;
+}
+
+.buttonspage .content {
+    width: 660px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.buttonspage .inner {
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 85px;
+}
+
+.buttonspage .inner .title {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #222;
+    font-family: montserrat;
+    font-size: 28px;
+    /* text-transform: uppercase; */
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
+.buttonspage .inner .db-name {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: montserrat;
+    text-align: center;
+    padding: 5px;
+}
+
+.buttonspage .inner .btn-group1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 14px;
+}
+
+.buttonspage .inner .btn-group1 .btn1 {
+    border-right: 1px solid;
+}
+
+.buttonspage .inner .btn-group1 .btn2 {
+    border-left: 1px solid;
+}
+
+.buttonspage .inner .queryType {
+    background: #fff;
+    width: 260px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buttonspage .inner .btn1:active {
+    border-bottom: 2px solid;
+}
+
+.buttonspage .inner .queryType:hover {
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.8), rgba(128, 255, 114, 0.8));
+    color: #fff;
+}
+
+.buttonspage .inner .subtitle {
+    line-height: 1.66;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    /* font-weight: 700; */
+    /* color: #222; */
+    font-family: montserrat;
+    /* font-size: 24px; */
+    /* text-transform: uppercase; */
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
+.buttonspage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonspage .dropdown {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buttonspage .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonspage .button-container .btn-group {
+    margin-bottom: 20px;
+}
+
+.buttonspage .button-container .button {
+    padding: 20px 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.8), rgba(128, 255, 114, 0.8));
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    /* padding: 15px; */
+}
+
+.buttonspage .button-container .button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+.queryspage {
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.7), rgba(128, 255, 114, 0.7)), url(../media/buttons-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    line-height: 1.8;
+    padding: 80px 0;
+}
+
+.queryspage .content {
+    width: 660px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.queryspage .inner {
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 85px;
+}
+
+.queryspage .inner .back a {
+    text-decoration: none;
+    color: #777;
+}
+
+.queryspage .inner .back {
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+
+.queryspage .inner .back a:hover {
+    color: rgba(128, 255, 114);
+}
+
+.queryspage .inner h1 {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #222;
+    font-family: montserrat;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.queryspage .inner .results-title {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(128, 255, 114);
+    font-family: montserrat;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.queryspage .inner .table-name {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: montserrat;
+    text-align: center;
+    padding: 5px;
+}
+
+.queryspage .inner .subtitle {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    /* font-weight: 700; */
+    /* color: #222; */
+    font-family: montserrat;
+    /* font-size: 24px; */
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.queryspage .inner .btn-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.queryspage .inner .queryType {
+    background: #fff;
+    width: 260px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.queryspage .inner .download-csv {
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.7), rgba(128, 255, 114, 0.7));
+    color: #fff;
+    /* width: 290px; */
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    padding: 8px;
+    text-align: center;
+}
+
+.queryspage .inner .download-csv:hover {
+    background-color: #0056b3;
+}
+
+.queryspage .inner .download-csv i {
+    padding: 5px;
+
+}
+
+.queryspage .inner .queryType:hover {
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.8), rgba(128, 255, 114, 0.8));
+    color: #fff;
+}
+
+.queryspage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.queryspage form .columns,
+.queryspage form .whereCondition {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.queryspage form .columns p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.queryspage .multi-dropdown {
+    width: 300px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    /* margin-bottom: 20px; */
+}
+
+.queryspage .inner h2 {
+    line-height: 1.66;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #222;
+    font-family: montserrat;
+    /* font-size: 24px; */
+    text-transform: uppercase;
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+
+.queryspage .dropdown {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    margin-right: 5px;
+    /* margin-bottom: 20px; */
+}
+
+.queryspage form .whereCondition input,
+.queryspage form .column-to-update input,
+.queryspage form .values input {
+    width: 200px;
+    padding: 8px;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.queryspage form .whereCondition {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.queryspage form .whereCondition .fields{
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.queryspage form .values .fields {
+    padding: 5px;
+}
+
+.queryspage form .values i {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.queryspage form .values i:hover {
+    color: rgba(128, 255, 114, 0.7);
+}
+
+.queryspage form .values p {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.queryspage form .values p:hover {
+    color: rgba(128, 255, 114, 0.7);
+}
+
+.queryspage .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.queryspage .button-container .button {
+    padding: 15px 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(315deg, rgba(126, 232, 250, 0.8), rgba(128, 255, 114, 0.8));
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    /* padding: 15px; */
+}
+
+.queryspage .button-container .button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,142 @@
+{
+  "Header": {
+    "title": "Playing With Snowflake Made Easy",
+    "paragraph": "\"Dont know how to write sql query to work with data? We have got a solution to your problem \""
+  },
+  "About": {
+    "paragraph": "Welcome to Snowflake REST API website, where we offer a reliable and powerful solution for accessing and managing data in the cloud. With Snowflake REST API, users can easily integrate and automate data workflows, allowing for faster decision-making and improved productivity. Our team is composed of highly skilled professionals who are passionate about delivering the best experience for our customers. We strive to continuously improve our technology and services to meet the evolving needs of our clients. Trust Snowflake REST API to help you unlock the full potential of your data in the cloud.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Services": [
+    {
+      "icon": " fa fa-solid fa-check",
+      "name": "SQL-FREE",
+      "text": "Snowflake REST API website can be used by anyone even if they don't know SQL language. "
+    },
+    {
+      "icon": " fa fa-brands fa-get-pocket",
+      "name": "FETCH",
+      "text": "Snowflake REST API website provides a reliable and efficient way for businesses to fetch data from various sources."
+    },
+    {
+      "icon": "fa fa-solid fa-file-import",
+      "name": "POST",
+      "text": "Snowflake REST API website provides a simple and powerful way for businesses to post data to their cloud-based data warehouse. "
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "GET",
+      "text": "Snowflake REST API website provides a reliable and efficient way for businesses to retrieve data from their cloud-based data warehouse using the GET method."
+    },
+    {
+      "icon": " fa fa-light fa-trash",
+      "name": "DELETE",
+      "text": "With our platform, users can easily delete data using RESTful APIs that are designed to be highly customizable and flexible."
+    },
+    {
+      "icon": "fa fa-solid fa-lock",
+      "name": "SECURE",
+      "text": "Snowflake REST API website is designed with a strong emphasis on security to ensure that user data is always safe and secure."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "https://media.licdn.com/dms/image/D4D03AQG0GmvqbiDUKg/profile-displayphoto-shrink_400_400/0/1679124505688?e=1686182400&v=beta&t=P-MI_BLP6_bEaCRuK4ZGf3_FNEa04QD93xYQtilLgxc",
+      "text": "\"Associate Product Manager\"",
+      "name": "Abhijeet gajbhiye"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/C5603AQHdgvivOYbYMQ/profile-displayphoto-shrink_400_400/0/1634361629886?e=1686182400&v=beta&t=ZHo7_SFKxiJVsBXC7i8K8rvmZlFzSr3yfXerPiBtt_c",
+      "text": "\"Senior Data Engineering Manager\"",
+      "name": "Siddharth pati"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Software Engineer at CDK Global\"",
+      "name": "Naveen naidu"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/C5603AQH7dWwQlmY4-w/profile-displayphoto-shrink_800_800/0/1634808394825?e=1687392000&v=beta&t=NpA9gil3lufvvat08g9EKLyqTjXvvn_4L8we8gIHsQ8",
+      "text": "\"Sr Director - Product & Technology at CDK Global Ltd\"",
+      "name": "Manoj Gupta"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/D4D03AQEDaLnglaZcog/profile-displayphoto-shrink_800_800/0/1681218959772?e=1687392000&v=beta&t=XqH4SBBxMl8pMiS0fxA2xzXJq5B-g8ZDyux0hGq2tMY",
+      "text": "\"Data Engineer at CDK Global\"",
+      "name": "Shubham Mor"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/D5635AQFV9Q3GwvjFVA/profile-framedphoto-shrink_800_800/0/1677158208840?e=1682222400&v=beta&t=ektBgvHxLexteheiwlNH12uDD3AdWRjM19mP1xCzoOE",
+      "text": "\"Software Engineer at CDK Global\"",
+      "name": "Neha Singh"
+    }
+  ],
+  "Team": [
+    {
+      "img": "https://media.licdn.com/dms/image/D4D03AQEMBf3h8Ufdow/profile-displayphoto-shrink_800_800/0/1681667965789?e=1687392000&v=beta&t=yrJ1_eBGk-VCsiH7UEQbA7rZYgzCWQafyJ2_iKR0tvw",
+      "name": "Chaitanya Vaidya",
+      "job": "Project Manager"
+    },
+    {
+      "img": "https://avatars.githubusercontent.com/u/71919420?v=4",
+      "name": "Pranav Jindal",
+      "job": "Project Manager"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/D4D03AQGIJjXIKA1v1Q/profile-displayphoto-shrink_400_400/0/1670607993955?e=1686182400&v=beta&t=TE2McxERYpNxqNcvxkTgJEc_jfeCpXa2BZnqyFb_rWE",
+      "name": "Kartavya Abbet",
+      "job": "Director"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/D4D03AQFw4QkIAEfejQ/profile-displayphoto-shrink_400_400/0/1670648820577?e=1686182400&v=beta&t=Kwem6Pv0QFlEZ8fD_0ONrBTSjm_ArrXSBgjBRRm9EEM",
+      "name": "Jashan",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/D4D03AQHY2-I8QxRNwg/profile-displayphoto-shrink_400_400/0/1679061703390?e=1686182400&v=beta&t=dfMob5t4X_9Gk7FUp5IjCMWZoqRS5dXYhvfWpcyoVsM",
+      "name": "Nirbhay Chopra",
+      "job": "Senior Designer"
+    }
+  ],
+  "Contact": {
+    "address": "Pune",
+    "phone": "+91 7303991660",
+    "email": "info@CDKglobal.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-brands fa-python ",
+      "title": "Python",
+      "text": "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis."
+    },
+    {
+      "icon": " fa fa-solid fa-server ",
+      "title": "SQL",
+      "text": "SQL is used to perform operations on the records stored in the database, such as updating records, creating and modifying database tables, views, etc."
+    },
+    {
+      "icon": "fa fa-group ",
+      "title": "Postman",
+      "text": "Postman is a standalone software testing API (Application Programming Interface) platform to build, test, design, modify, and document APIs."
+    },
+    {
+      "icon": " fa fas fa-database ",
+      "title": "SnowFlake",
+      "text": "Snowflake is a cloud data warehouse that can store and analyze all your data records in one place.  It can automatically scale up/down its compute resources to load. "
+    }
+  ]
+}
