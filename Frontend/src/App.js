@@ -9,14 +9,12 @@ import PatchPage from './components/buttonspage/pages/PatchPage';
 import DeletePage from './components/buttonspage/pages/DeletePage';
 import ConnInfo from './components/connInfo/ConnInfo';
 import Results from './components/buttonspage/pages/Results';
-import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div className="App">
       {/* <Navbar /> */}
-      {/* <ToastContainer /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/info' element={<ConnInfo />} />

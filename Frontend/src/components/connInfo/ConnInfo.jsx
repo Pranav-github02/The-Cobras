@@ -1,14 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./style.css";
 import axios from 'axios'
-import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
-// import { useDispatch, useSelector } from 'react-redux'
 import Preloader from '../preloader/Preloader';
 
 export default function ConnInfo() {
-    // const dispatch = useDispatch();
     const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
     const [formData, setFormData] = useState({
@@ -43,9 +40,6 @@ export default function ConnInfo() {
             axios.post("http://127.0.0.1:8000/api/snowconn/", formData)
                 .then((response) => {
                     if (response.status === 200) {
-                        // dispatch({ type: 'CONNECTION', payload: formData })
-                        // console.log(response.data);
-                        // dispatch({ type: 'TABLES', payload: response.data.tables })
                         setIsLoading(false)
                         navigate("/buttons", {
                             state: {

@@ -203,19 +203,20 @@
     flex-wrap: wrap;
 }
 
-
-.queryspage form .whereCondition .fields{
+.queryspage form .whereCondition .fields {
     display: flex;
     padding-bottom: 10px;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .queryspage form .values .fields {
     padding: 5px;
 }
 
-.queryspage form .values i {
+.queryspage form .values i,
+.queryspage .whereCondition i {
     cursor: pointer;
     margin-left: 10px;
     font-size: 16px;
@@ -260,4 +261,11 @@
 
 .queryspage .button-container .button:hover {
     background-color: #0056b3;
+}
+
+.and-or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
 }

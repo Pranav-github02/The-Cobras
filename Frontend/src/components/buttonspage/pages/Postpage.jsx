@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { useLocation, NavLink, useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import Preloader from '../../preloader/Preloader';

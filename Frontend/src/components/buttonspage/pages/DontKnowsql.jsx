@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { NavLink, useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Preloader from '../../preloader/Preloader'
 import { ToastContainer, toast } from 'react-toastify';
 
@@ -12,7 +12,7 @@ const DontKnowsql = ({ connection, tables }) => {
   const conn = connection
   const fetchColumnsGet = async (e) => {
     e.preventDefault()
-    if (selectTable === null) {
+    if (selectTable === null || selectTable === "select") {
       toast.warning("Please select a table", {
         position: "top-center",
         autoClose: 5000,
@@ -58,7 +58,7 @@ const DontKnowsql = ({ connection, tables }) => {
 
   const fetchColumnsPost = async (e) => {
     e.preventDefault()
-    if (selectTable === null) {
+    if (selectTable === null || selectTable === "select") {
       toast.warning("Please select a table", {
         position: "top-center",
         autoClose: 5000,
@@ -104,7 +104,7 @@ const DontKnowsql = ({ connection, tables }) => {
 
   const fetchColumnsPatch = async (e) => {
     e.preventDefault()
-    if (selectTable === null) {
+    if (selectTable === null || selectTable === "select") {
       toast.warning("Please select a table", {
         position: "top-center",
         autoClose: 5000,
@@ -150,7 +150,7 @@ const DontKnowsql = ({ connection, tables }) => {
 
   const fetchColumnsDelete = async (e) => {
     e.preventDefault()
-    if (selectTable === null) {
+    if (selectTable === null || selectTable === "select") {
       toast.warning("Please select a table", {
         position: "top-center",
         autoClose: 5000,

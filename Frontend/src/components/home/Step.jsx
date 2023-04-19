@@ -39,7 +39,7 @@ export const Step = (props) => {
                 <br />
                 <div style={{ justifyContent: "center", textAlign: "center", marginTop: "70px" }} className="text-center">
                     <NavLink to="/info"><button type="button" className="btn" style={{ marginRight: "47PX", height: "50px", width: "150px" }}>Ready to go!</button></NavLink>
-                    <button type="button" className="btn" style={{ height: "50px", width: "150px" }}>Still having doubts?</button>
+                    {/* <button type="button" className="btn" style={{ height: "50px", width: "150px" }}>Still having doubts?</button> */}
                 </div>
                 <br />
                 <br />

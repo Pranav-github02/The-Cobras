@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./style1.css"
 import Preloader from '../../preloader/Preloader';
-import { useNavigate, useLocation, NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 

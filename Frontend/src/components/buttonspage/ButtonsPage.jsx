@@ -1,20 +1,12 @@
-import React,{ useState } from 'react'
+import React, { useState } from 'react'
 import "./style1.css"
-import { NavLink, useLocation, useNavigate } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import RawSQL from './pages/RawSQL';
 import DontKnowsql from './pages/DontKnowsql';
 import './pages/dontKnowSql.css'
-// import { useSelector, useDispatch } from 'react-redux';
 const ButtonsPage = () => {
-    // const dispatch = useDispatch();
-    // console.log(useSelector(state => state));
-    // const info = useSelector(state => state.info)
-    const navigate = useNavigate();
     const location = useLocation();
-    // const [table, setTable] = useState(useSelector(state => state.tables))
     const [table, setTable] = useState(location.state.tables)
-    // const [selectTable, setSelectTable] = useState(null)
-    // const [isLoading, setIsLoading] = useState(false);
     const [active, setActive] = useState(true);
     const conn = location.state.ConnInfo
 
