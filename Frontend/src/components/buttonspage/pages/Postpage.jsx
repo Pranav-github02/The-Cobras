@@ -36,7 +36,7 @@ const Postpage = () => {
     setSelectedColumn(updatedSelectedOptions);
   }
 
-  
+
 
   const handleAddOption = () => {
     const newOptions = [...size, `Option ${size.length + 1}`];
@@ -76,29 +76,31 @@ const Postpage = () => {
     axios.post("http://127.0.0.1:8000/api/post/", data)
       .then((response) => {
         setIsLoading(false)
-        toast.success('Row inserted successfully', {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-        });
+        window.alert("Row inserted successfully")
+        // toast.success('Row inserted successfully', {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: false,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
       })
       .catch((error) => {
         setIsLoading(false)
-        toast.error('Row insertion failed', {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-        });
+        window.alert("Row insertion failed")
+        // toast.error('Row insertion failed', {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: false,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
       })
   }
 

@@ -93,30 +93,32 @@ const DeletePage = () => {
     axios.post("http://127.0.0.1:8000/api/del/", data)
       .then((response) => {
         setIsLoading(false)
-        toast.success("Row(s) deleted successfully!", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-        });
+        window.alert("Row(s) deleted successfully!")
+        // toast.success("Row(s) deleted successfully!", {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: false,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
         console.log(response);
       })
       .catch((error) => {
         setIsLoading(false)
-        toast.error("Row(s) deletion failed! Please retry", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-        });
+        window.alert("Row(s) deletion failed! Please retry")
+        // toast.error("Row(s) deletion failed! Please retry", {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: false,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
         console.log(error);
       })
   }

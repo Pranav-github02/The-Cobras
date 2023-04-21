@@ -100,31 +100,31 @@ const Patchpage = () => {
     axios.post("http://127.0.0.1:8000/api/patch/", data)
       .then((response) => {
         setIsLoading(false)
-        toast.success("Row(s) updated successfully!", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-        });
-        console.log(response);
+        window.alert("Row(s) updated successfully!")
+        // toast.success("Row(s) updated successfully!", {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: false,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
       })
       .catch((error) => {
         setIsLoading(false)
-        toast.error("Row(s) updation failed! Please retry", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-        });
-        console.log(error);
+        window.alert("Row(s) updation failed! Please retry")
+        // toast.error("Row(s) updation failed! Please retry", {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: false,
+        //   progress: undefined,
+        //   theme: "light",
+        // });
       })
   }
 
